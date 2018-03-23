@@ -8,6 +8,15 @@
     background-color: #f6fffe;
   } */
 
+@media (min-width: 600px) {
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 750px;
+    margin: 0 auto;
+  }
+}
+
 .container1 {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
